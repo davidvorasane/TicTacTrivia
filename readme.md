@@ -29,40 +29,40 @@ The first player to get three in a row wins.
 Objectives
 
 The primary goals of this project are:
-Practice building a full React application
-Implement interactive game logic
-Work with component-based architecture
-Manage application state effectively
-Integrate an external trivia API
-Create a responsive and intuitive UI
+Practice building a full React application.
+Implement interactive game logic.
+Work with component-based architecture.
+Manage application state effectively.
+Integrate an external trivia API.
+Create a responsive and intuitive UI.
 
 
 🎲 Tic Tac Toe Game Board
 
-3x3 grid
-Tracks player turns
-Detects win or draw conditions
-❓ Trivia Question System
-Question appears when a square is selected
-Multiple-choice answers
-Correct answer allows move placement
-🔄 Turn-Based Gameplay
-Alternating player turns
-Incorrect answers skip a turn
-🏆 Win Detection
-Detects horizontal, vertical, and diagonal wins
-Displays winner or draw message
-🔁 Game Reset
-Restart the game anytime
-Reset board and score
+3x3 grid.
+Tracks player turns.
+Detects win or draw conditions.
+❓ Trivia Question System.
+Question appears when a square is selected.
+Multiple-choice answers.
+Correct answer allows move placement.
+🔄 Turn-Based Gameplay.
+Alternating player turns.
+Incorrect answers skip a turn.
+🏆 Win Detection.
+Detects horizontal, vertical, and diagonal wins.
+Displays winner or draw message.
+🔁 Game Reset.
+Restart the game anytime.
+Reset board and score.
 
 
 Planned Tech Stack
 
-React – Frontend framework
-JavaScript (ES6+)
-CSS / Styled Components (TBD)
-Open Trivia DB API (for questions)
+React – Frontend framework.
+JavaScript (ES6+).
+CSS / Styled Components (TBD).
+Open Trivia DB API (for questions).
 
 
 Component Structure
@@ -88,31 +88,31 @@ src/
 
 Game Flow
 
-Player selects an empty square
-Trivia question modal appears
-Player selects an answer
+Player selects an empty square.
+Trivia question modal appears.
+Player selects an answer.
 If correct:
-Square is filled with player's mark
+Square is filled with player's mark.
 If incorrect:
-Turn passes to the next player
-Game checks for win/draw
-Continue until game ends
+Turn passes to the next player.
+Game checks for win/draw.
+Continue until game ends.
 
 
 Learning Goals
 
 This project will help reinforce:
-React hooks (useState, useEffect)
-Component communication via props
-Conditional rendering
-API fetching
-Game state logic
-UI/UX design in React
+React hooks (useState, useEffect).
+Component communication via props.
+Conditional rendering.
+API fetching.
+Game state logic.
+UI/UX design in React.
 
 
 Installation
 
-git clone https://github.com/yourusername/tic-tac-trivia.git
-cd tic-tac-trivia
-npm install
-npm run dev
+git clone https://github.com/yourusername/tic-tac-trivia.git,
+cd tic-tac-trivia,
+npm install,
+npm run dev,
